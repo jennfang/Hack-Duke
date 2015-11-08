@@ -1,0 +1,67 @@
+html
+  head
+    title Change for Change!
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700italic' rel='stylesheet' type='text/css'>
+  body
+    h1!= "Total Spent In Past Month: $" + totalAmount 
+    h1!="Possible Charitable Contribution: $" + totalLeftover
+    
+  div
+  table
+    thead
+      tr
+        td: b DATE &nbsp &nbsp  &nbsp  &nbsp  &nbsp  &nbsp &nbsp       
+        td: b NAME &nbsp &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp       
+        td: b AMOUNT SPENT &nbsp  &nbsp &nbsp        
+        td: b CHARITABLE DONATION &nbsp
+    tbody
+      each val in transactions
+        tr
+          td=val.date 
+          td=val.name
+          td=val.amount
+          td=val.leftover
+    
+// <TABLE BORDER = "5" WIDTH = "100%" CELLPADDING = "2" CELLSPACING = "3">
+// <TR>
+// <TH COLSPAN="3"><BR><H3>ACORNS FOR CHARITY</H3>
+// </TH>
+// </TR>
+// <TR>
+// <TH> Transaction </TH>
+// <TH> Amount Spent </TH>
+// <TH> Amount Donated </TH>
+// </TR>
+
+// <TR>
+// <TR ALIGN= "CENTER">
+// ul
+//       each val in transactions
+//         <TD> li= val.date + " " + val.name + " " + val.amount + " " + val.leftover </TD>
+
+// </TR>
+// </TABLE>
+
+// var table = document.createElement('table'), tr, td, row, cell;
+// for (row = 0; row < transactions.length(); row++) {
+//     tr = document.createElement('tr');
+//     for (cell = 0; cell < 3; cell++) {
+//         td = document.createElement('td');
+//         td.innerHTML = transactions[i].name;
+//     }
+//     table.appendChild(tr);
+// }
+
+// // <script language="javascript" type="text/javascript">
+// for (var i = 0; i< transactions.length(); i++) {
+// document.write("<tr>");
+
+// document.write("<td>"+transactions[i].name+"</td>");
+// document.write("<td>"+transactions[i].amount+"</td>");
+// document.write("<td>"+transactions[i].leftover+"</td>");
+// }
+// document.write("</tr>");
+// }
+// </script>
+
+
