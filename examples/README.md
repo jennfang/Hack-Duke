@@ -1,6 +1,29 @@
-# Link Examples
+#CHANGE FOR CHANGE PROJECT
 
-Check out our code samples and community-contributed resources to kickstart your Plaid Link integration!
+Inspiration: 
+We got the idea from Acorns, an app which invests spare change to help the user save money over time
+
+What it does: 
+Change for Change rounds up each purchase with a linked credit card to the nearest dollar. This amount will be donated to charity of the user's choice.
+
+How we built it: 
+We utilized the Plaid API, and the website was created using JavaScript, Jade, HTML, and CSS.
+
+Challenges we ran into: 
+Learning how to use the Plaid API was initially difficult. It took a significant amount of adjusting before we were able to make use of the bank data.
+
+Accomplishments that we're proud of: 
+None of us have experience with JavaScript, Jade, HTML, or CSS. The fact that we were able to learn these and build something cool in the span of 24 hours is a big accomplishment.
+
+What we learned: 
+We learned many new languages as well as how to develop on the front and back end.
+
+What's next for Change for Change: 
+Next we plan to connect Change for Change to actual bank accounts and set up the withdrawal process to make donations actually happen. Once we implement this, donating to charities will be much more frequent and convenient for users. With that, Change for Change will make progress towards combating inequality.
+
+[Below is what we used from the plaid API]
+
+Check out Plaid code samples and community-contributed resources to kickstart your Plaid Link integration!
 
 ## Client Libraries
 
